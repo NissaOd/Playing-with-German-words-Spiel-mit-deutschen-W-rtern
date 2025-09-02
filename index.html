@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Немецкие слова и картинки</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Соедини слово с картинкой</h1>
+  <div class="container">
+    <div class="images" id="images"></div>
+    <div  class="words" id="words"></div>
+  </div>
+  <p id="result"></p>
+
+<div class="score-board">
+  <p>Баллы: <span id="score">0</span></p>
+  <p>Попытки: <span id="attempts">0</span></p>
+  <p>Рейтинг: <span id="accuracy">0%</span></p>
+  
+  <button id="resetBtn"  type="button">Начать заново</button>
+</div>
+
+
+<h2>Угаданные пары:</h2>
+<div class="matched-container" id="matched"></div>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
